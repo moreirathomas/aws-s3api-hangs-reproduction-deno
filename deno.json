@@ -1,5 +1,6 @@
 {
   "tasks": {
-    "dev": "deno run --watch main.ts"
+    "test": "deno test --allow-read --allow-sys --allow-env --allow-net main_test.ts",
+    "bench": "deno bench --allow-read --allow-sys --allow-env --allow-net main_bench.ts"
   }
 }
